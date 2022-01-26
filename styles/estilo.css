@@ -1,0 +1,307 @@
+/******** ESTILO DE LA PÁGINA ****************/
+
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/Aileron-Black.otf);
+}
+
+body{
+    background-image: url(../images/frame.png);
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#hero{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(54, 54, 78);
+}
+
+#izq{
+    width: 35%;
+    float: left;
+    text-align: left;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+#izq h1{
+    font-size: 3em;
+    font-family: titulo;
+}
+
+#izq h3{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 0.5em;
+    background-color: rgb(219, 110, 37);
+    color: white;
+    border-radius:10px;
+    box-shadow: 5px 10px 8px black;
+}
+
+#drch{
+    width: 55%;
+    float: right;
+    margin: 10px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+#Ordenador{
+    width: 100%;
+    float: right;
+}
+
+nav {
+    position: relative; 
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: titulo;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(219, 110, 37);
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {{
+    float: right;
+    display: block;
+    text-align: center;
+    }
+    #izq{
+        width: 100%;
+        text-align: center;
+        margin-right: 10px;
+        text-align: center;
+    }
+    #youtube{
+        width: 300px;
+        height:140px ;
+
+    }
+    #logo{
+        width: 50%;
+    }
+    #caja1{
+        width: 50%;
+        float: left;
+    }
+    #caja2{
+        width: 50%;
+    }
+    #caja3{
+        width: 50%;
+    }
+    #cuadros{
+        width: 50%;
+    }
+    #ultimoLogo{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1180px) {{
+}
+#izq{
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#deporte1{
+    display: none;
+}
+#deporte2{
+    display: none;
+}
+#mitad2{
+    position: relative;
+    top: 1700px;
+}
+#ultimoLogo{
+    position: relative;
+    top: 300px;
+    width: 10%;
+}
+}
+
+#video{
+    position: absolute;
+    top: 570px;
+    width: 92%;
+    background-color: white;
+    margin: 20px;
+    padding: 60px;
+    margin: auto;
+    color: rgb(54, 54, 78);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#youtube{
+    margin: 20px;
+}
+
+#deporte1{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+#deporte2{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+#boton2{
+    background-color: rgb(219, 110, 37);
+    position: relative;
+}
+
+#cuadros{
+    background-image: url(../images/frame.png);
+    position: relative;
+    top: 1465px;
+    width: 100%;
+}
+
+#cuadros p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#logo{
+    position: absolute;
+    top: -100px;
+    left: 30%;
+    margin-top: 30px;
+}
+
+#caja1{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    text-align: center;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgb(54, 54, 78);
+}
+
+#caja2{
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    text-align: center;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgb(54, 54, 78);
+}
+
+#caja3{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    text-align: center;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgb(54, 54, 78);
+}
+#boton3{
+    position: relative;
+    top: 620px;
+    left: 43%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    position: absolute;
+    top: 2250px;
+    background-color: rgb(54, 54, 78);
+    width: 96%;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+#mitad1{
+    width: 50%;
+    margin-left: 100px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mitad2{
+    position: relative;
+    width: 30%;
+    float: right;
+    top: -150px;
+}
+
+#ultimoLogo{
+    width: 50%;
+    position: relative;
+    top: -140px;
+}
+
+#ig{
+    position: relative;
+    width: 20px;
+    top: -100px;
+}
+
+#twi{
+    position: relative;
+    width: 35px;
+    top: -100px;
+    left: 100px;
+}
+
+#in{
+    position: relative;
+    width: 25px;
+    top: -100px;
+    left: 180px;
+}
+
+#lista{
+    position: relative;
+    left: 400px;
+    top: -160px;
+}
+
+.opacidad{
+    opacity: 0.6;
+}
